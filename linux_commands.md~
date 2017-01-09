@@ -1,8 +1,0 @@
-## Linux Commands
-
-
-Command | Behavior
---------|---------
-free | Display the status of RAM
-df | Reports the ammount of disk space used and available on file systems
-
