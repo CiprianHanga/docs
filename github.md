@@ -37,3 +37,7 @@ $ git push origin master
 
 ```git add -u```
 
+- enable git color globally
+
+```git config --global color.ui auto```
+
