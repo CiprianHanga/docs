@@ -1,4 +1,5 @@
 <?php
+// test file
 
 $names = array (
   Ciprian,
