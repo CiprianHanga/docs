@@ -30,3 +30,10 @@ $ git push origin master
 	1. the GitHub username
 	2. the GitHub password 
 
+
+### Various Tips
+
+- when you deleted files on the repository
+
+```git add -u```
+
