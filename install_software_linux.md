@@ -1,5 +1,14 @@
 ## Install Software on Linux
 
+### Add Repos
+
+To add software repos using zypper:
+```bash
+# zypper ar -f <URL> <alias>
+```
+- it is required that you add an alias after the URL part--add a short keyword
+- you have to have root privileges (sudo or su)
+
 ### RPM Packages
 
 - when you have to choose between .deb and .rpm files, always choose .rpm files (CentOS, Fedora, etc.)
@@ -45,7 +54,14 @@ $ sudo make install
 
 - download the .run file (with browser or wget)
 - run these:
+
+OR
+
 ```bash
-$ chmod +x file.run
-$ ./file.run
+chmod 755 <filename>
+ls -la // check it to be executable for the owner
+./<filename>
 ```
+
+- ```chmod -x <filename>``` also works
+
